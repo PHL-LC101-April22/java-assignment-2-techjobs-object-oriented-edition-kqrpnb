@@ -39,10 +39,10 @@ public class CoreCompetency {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof CoreCompetency)) return false;
-        CoreCompetency that = (CoreCompetency) o;
+    public boolean equals(Object coreCompetencyObject) {
+        if (this == coreCompetencyObject) return true;
+        if (!(coreCompetencyObject instanceof CoreCompetency)) return false;
+        CoreCompetency that = (CoreCompetency) coreCompetencyObject;
         return id == that.id;
     }
 
