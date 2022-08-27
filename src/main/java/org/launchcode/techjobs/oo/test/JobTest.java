@@ -62,7 +62,7 @@ public class JobTest {
                 new CoreCompetency("Persistence"));
 //        System.out.println("d " + jobD.getId());
 //        System.out.println("e " + jobE.getId());
-        assertFalse(jobD.getId() == jobE.getId());
+        assertFalse(jobD.equals(jobE));
     }
 
     // 5) toString tests
